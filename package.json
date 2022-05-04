@@ -1,0 +1,19 @@
+{
+  "name": "@rfcx/prometheus-metrics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prom-client": "^14.0.1"
+  },
+  "homepage": "https://github.com/rfcx/prometheus-metricss#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rfcx/prometheus-metrics.git"
+  }
+}
