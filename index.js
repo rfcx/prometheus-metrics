@@ -41,7 +41,7 @@ class Gauge {
         this.set(currentValue)
       }
     })
-    getRegister(registerName).register.registerMetric(this.gauge)
+    getRegister(registerName).registerMetric(this.gauge)
   }
 }
 
