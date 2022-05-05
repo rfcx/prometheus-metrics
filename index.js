@@ -12,9 +12,9 @@ function getRegister (app) {
 }
 
 class Histogram {
-  constructor (registerName, historgramName, help, buckets) {
+  constructor (registerName, histogramName, help, buckets) {
     this.histogram = new client.Histogram({
-      name: historgramName,
+      name: histogramName,
       help,
       buckets: buckets || [
         0.005, 0.05, 0.1, 0.25, 0.5,

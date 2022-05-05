@@ -4,7 +4,7 @@ A wrapper around [prom-client](https://github.com/siimon/prom-client) module to 
 
 When creating a `Histogram` class item you can provide the following arguments:
 - `registerName`: `string` - registry id. must be equal across one app or app department
-- `historgramName`: `string` - historgram id which will be used in further data retrieval (don't use space or special symbols)
+- `histogramName`: `string` - histogram id which will be used in further data retrieval (don't use space or special symbols)
 - `help`: `string` - description
 - `buckets`: `number[]` counters which form a cumulative histogram (Optional, Default: [0.005, 0.05, 0.1, 0.25, 0.5, 1, 1.5, 2, 2.5, 5, 7.5, 10, 12.5, 15, 17.5, 20, 25, 30, 35, 40, 45, 50, 75, 100, 150, 200, 250, 375, 500])
 

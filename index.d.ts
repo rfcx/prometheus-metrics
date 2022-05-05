@@ -2,7 +2,7 @@ import client from 'prom-client'
 
 declare module '@rfcx/prometheus-metrics' {
   class Histogram {
-    constructor(registerName: string, historgramName: string, help: string, buckets?: number[])
+    constructor(registerName: string, histogramName: string, help: string, buckets?: number[])
     histogram: client.Histogram
     push(value: number): void
   }
